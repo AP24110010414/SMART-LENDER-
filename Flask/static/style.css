@@ -1,0 +1,179 @@
+/* Color Palette */
+:root {
+    --primary: #0F4C81;
+    --primary-hover: #0c3b65;
+    --accent: #16A34A;
+    --accent-hover: #15803d;
+    --bg-color: #F8FAFC;
+    --card-bg: #FFFFFF;
+    --text-main: #1F2937;
+    --text-muted: #6B7280;
+    --border: #e5e7eb;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: 700;
+    color: var(--primary) !important;
+    font-size: 1.5rem;
+}
+.nav-link {
+    font-weight: 500;
+    color: var(--text-main) !important;
+}
+.nav-link:hover {
+    color: var(--primary) !important;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #ffffff 0%, var(--bg-color) 100%);
+    padding: 6rem 0;
+    border-bottom: 1px solid var(--border);
+}
+.hero-title {
+    color: var(--primary);
+    font-weight: 800;
+    font-size: 3rem;
+}
+.hero-subtitle {
+    font-weight: 600;
+    color: var(--text-muted);
+    font-size: 1.25rem;
+}
+
+/* Buttons */
+.btn-primary-custom {
+    background-color: var(--accent);
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    transition: all 0.3s ease;
+}
+.btn-primary-custom:hover {
+    background-color: var(--accent-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+    color: white;
+}
+.btn-secondary-custom {
+    background-color: transparent;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+.btn-secondary-custom:hover {
+    background-color: var(--primary);
+    color: white;
+}
+
+/* Cards */
+.feature-card, .model-card {
+    background: var(--card-bg);
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+.feature-card:hover, .model-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.icon-container {
+    color: var(--primary);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Form Container */
+.prediction-section {
+    background-color: var(--primary);
+    padding: 5rem 0;
+}
+.form-card {
+    background: var(--card-bg);
+    border-radius: 16px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    padding: 3rem;
+}
+.form-section-title {
+    color: var(--primary);
+    font-weight: 700;
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.25rem;
+}
+.form-label {
+    font-weight: 600;
+    color: var(--text-main);
+    font-size: 0.9rem;
+}
+.form-control, .form-select {
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    padding: 0.75rem;
+    background-color: #f9fafb;
+}
+.form-control:focus, .form-select:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 0.25rem rgba(15, 76, 129, 0.25);
+}
+
+/* Result Page */
+.result-container {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.result-card {
+    background: var(--card-bg);
+    border-radius: 16px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    padding: 4rem;
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+.success-icon {
+    color: var(--accent);
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+.warning-icon {
+    color: var(--danger);
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+.summary-box {
+    background-color: var(--bg-color);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    text-align: left;
+}
+
+/* Footer */
+footer {
+    background-color: var(--card-bg);
+    border-top: 1px solid var(--border);
+    padding: 2rem 0;
+    color: var(--text-muted);
+}
