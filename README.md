@@ -185,7 +185,9 @@ http://127.0.0.1:5000
 ## Authors
 
 **Thanuja Jonnalagadda**
+
 **Karumuru Sai Lakshmi Ruchitha**
+
 **Surya Vardhan Chinta**
 
 B.Tech Computer Science and Engineering  
