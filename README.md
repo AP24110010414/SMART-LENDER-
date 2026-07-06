@@ -152,15 +152,21 @@ http://127.0.0.1:5000
 
 ### Home Page
 
-_Add a screenshot here._
+<img width="1261" height="632" alt="image" src="https://github.com/user-attachments/assets/e4340cd4-30a3-42e9-97f3-8ebd18e00061" />
+
+<img width="1250" height="637" alt="image" src="https://github.com/user-attachments/assets/bdfcfa00-23a9-45a2-980e-1dcd4bef205c" />
 
 ### Loan Application Form
 
-_Add a screenshot here._
+<img width="1263" height="629" alt="image" src="https://github.com/user-attachments/assets/2d39a036-cc4f-40ac-9a87-da62bb8069ad" />
+
+<img width="1263" height="633" alt="image" src="https://github.com/user-attachments/assets/2208d7c7-5901-4307-ad0c-d770cb2e12e9" />
+
 
 ### Prediction Result
 
-_Add a screenshot here._
+<img width="1271" height="624" alt="image" src="https://github.com/user-attachments/assets/22eb0836-f1a6-4c11-a558-22d8779ad270" />
+
 
 ---
 
@@ -176,9 +182,11 @@ _Add a screenshot here._
 
 ---
 
-## Author
+## Authors
 
 **Thanuja Jonnalagadda**
+**Karumuru Sai Lakshmi Ruchitha**
+**Surya Vardhan Chinta**
 
 B.Tech Computer Science and Engineering  
 SRM University-AP
