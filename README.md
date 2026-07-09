@@ -188,11 +188,11 @@ Refer to **DEMO VIDEO.md** for the project demonstration.
 
 ## Team lead
 
-- J. Thanuja
+- Jonnalagadda Thanuja
 
 ## Members
 - Karumuru Sai Lakshmi Ruchitha
-- Surya Chinta
+- Surya Vardhan Chinta
 
 ---
 
